@@ -1,8 +1,11 @@
 import React from 'react'
+import GuessNumber from './component/GuessNumber';
 
 const App = () => {
   return (
-    <div>App</div>
+   <>
+    <GuessNumber />
+   </>
   )
 }
 
